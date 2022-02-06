@@ -1,0 +1,15 @@
+l1= [(1,"A") , (2,"B") , () ,() , (3,"C") , (4,"D") , (),(5,"E")]
+def remove_empty_tuple(var):
+    if var!=0:
+        return var
+print("The original list: \n")
+print(l1)
+l2= list(filter(remove_empty_tuple,l1))
+print("List after removing all empty tuples is \n" )
+print(l2)
+print("List after removing all empty tuples and reversing the list is \n" )
+l2.reverse()
+print(l2)
+
+
+ 
