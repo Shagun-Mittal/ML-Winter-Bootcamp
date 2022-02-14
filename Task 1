@@ -4,7 +4,7 @@ def remove_empty_tuple(var):
         return var
 print("The original list: \n")
 print(l1)
-l2= list(filter(remove_empty_tuple,l1))
+l2= list(filter(remove_empty_tuple(l1),l1))
 print("List after removing all empty tuples is \n" )
 print(l2)
 print("List after removing all empty tuples and reversing the list is \n" )
